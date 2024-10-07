@@ -1,0 +1,12 @@
+[package]
+name = "uplatnice"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pdf417-hub3-rs = "0.2.3"
+printpdf = "0.3"
+image = { version = "0.24", features = ["png"] }
+rust_decimal = "1.29.0"
+
+
